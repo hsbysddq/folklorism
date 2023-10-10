@@ -12,7 +12,7 @@ const Navbar = () => {
             height={40}
             className="rounded-full"
           />
-          <p className="font-semibold pl-3">Hi, Hasbi Siddiqi</p>
+          <p className="font-semibold pl-3">Hi, Hasby Siddiqi</p>
         </div>
         <FaRegBell className="w-6 h-6" />
       </div>
