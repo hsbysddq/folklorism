@@ -4,7 +4,7 @@ import SearchForm from "./SearchForm"
 
 const Hero = () => {
   return (
-    <div className="bg-green-100">
+    <div className="bg-[#F6DDBE]">
       <Navbar />
       <div className="container">
         <div className="tagline w-5/12">
