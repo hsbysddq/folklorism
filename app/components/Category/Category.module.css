@@ -10,10 +10,6 @@
   overflow: visible;
 }
 
-.menu {
-  color: #fef7c2;
-}
-
 /*Hover*/
 .card:hover {
   border-color: #fef7c2;
