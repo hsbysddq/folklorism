@@ -5,7 +5,7 @@ import Category from "./Category/Category"
 
 const Hero = () => {
   return (
-    <div className="bg-[#FEF7C2]">
+    <div className="bg-[#983820]">
       <Navbar />
       <div className="container">
         <div className="tagline w-5/12">

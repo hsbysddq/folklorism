@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { FaRegBell } from "react-icons/fa"
+import { TiThMenu } from "react-icons/ti"
 const Navbar = () => {
   return (
     <div className="bg-transparent">
@@ -8,13 +8,18 @@ const Navbar = () => {
           <Image
             src="/avatar.png"
             alt=""
-            width={40}
-            height={40}
+            width={50}
+            height={50}
             className="rounded-full"
           />
-          <p className="font-semibold pl-3">Hi, Hasby Siddiqi</p>
+          <div className="font-semibold pl-3 text-[#F3DECC]">
+            <p className="text-sm">Hello</p>
+            <p className="text-base">Hasbi Siddiqi</p>
+          </div>
         </div>
-        <FaRegBell className="w-6 h-6" />
+        <div className="flex justify-center items-center w-8 h-8 bg-[#F3DECC] rounded-lg">
+          <TiThMenu className="w-5 h-5 text-[#983820]" />
+        </div>
       </div>
     </div>
   )
