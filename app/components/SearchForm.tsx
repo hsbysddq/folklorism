@@ -1,8 +1,9 @@
 import { IoMdColorFilter } from "react-icons/io"
+import { BsSearch } from "react-icons/bs"
 
 const SearchForm = () => {
   return (
-    <div className="pb-16">
+    <div className="pb-7">
       <div className="flex items-center w-full">
         <input
           placeholder="Search Course"

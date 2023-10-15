@@ -6,12 +6,13 @@ import ProgressPoint from "./ProgressPoint"
 
 const Hero = () => {
   return (
-    <div className="bg-[#F3DECC]">
+    <div className="bg-[#BD4420]">
       <Navbar />
       <div className="container">
         <ProgressPoint />
         <SearchForm />
       </div>
+      <Category />
     </div>
   )
 }
