@@ -25,6 +25,7 @@ const config: Config = {
       },
       fontFamily: {
         young: ["Young Serif", "serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
