@@ -1,6 +1,7 @@
 import React from "react"
 import Navbar from "../components/Navbar/Navbar"
 import Notification from "../components/Navbar/Notification"
+import Link from "next/link"
 
 const RegisterPage = () => {
   return (
@@ -9,8 +10,8 @@ const RegisterPage = () => {
       <div className="bg-[#FEF7C2] w-screen h-[calc(100vh-3rem)] flex items-center">
         <div className="w-[350px] bg-[#F4DFBA] rounded-xl m-5">
           <div className="">
-            <h1 className="text-center font-extrabold text-3xl text-[#983820] pt-4">
-              Sign In
+            <h1 className="text-center font-extrabold text-3xl text-[#983820] pt-10">
+              Register
             </h1>
             <form action="" className="mt-6 flex flex-col items-center">
               <input
@@ -34,9 +35,17 @@ const RegisterPage = () => {
               />
             </form>
             <div className="pt-4 px-8">
-              <p className="pb-8 text-[#983820] font-bold">Forgot Password ?</p>
-              <button className="font-bold text-lg bg-[#983820] text-[#DAB19D] p-4 w-full rounded-2xl mb-6">
-                Sign In
+              <div className="flex">
+                <p className="pb-8 text-[#983820] font-bold mr-2">
+                  Do you have account ?
+                </p>
+                <Link href="/" className="text-[#983820] font-bold">
+                  Login
+                </Link>
+              </div>
+
+              <button className="font-bold text-lg bg-[#983820] text-[#DAB19D] p-4 w-full rounded-2xl mb-8">
+                Register
               </button>
             </div>
           </div>
