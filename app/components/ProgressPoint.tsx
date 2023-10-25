@@ -2,7 +2,7 @@ import React from "react"
 
 const ProgressPoint = () => {
   return (
-    <div>
+    <div className="mx-2">
       <div className="flex justify-between text-sm font-semibold pb-2 text-[#983820]">
         <p>Your Points</p>
         <p>Reedem offer</p>
