@@ -8,7 +8,7 @@ const Navbar = () => {
   const user = false
 
   return (
-    <div className="h-12 text-[#983820] p-4 flex items-center justify-between border-b-2 border-[#983820] bg-[#F4DFBA] uppercase md:24 lg:px-20 xl:px-40">
+    <div className="h-12 text-[#983820] p-4 flex items-center justify-between border-b-2 border-[#983820] bg-[#FEF7C2] uppercase md:24 lg:px-20 xl:px-40">
       {/* LEFT LINK */}
       <div className="hidden md:flex gap-4 flex-1">
         <Link href="/">Homepage</Link>
