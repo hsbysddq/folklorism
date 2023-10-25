@@ -4,7 +4,7 @@ import Menu from "./Navbar/Menu"
 
 const Nav = () => {
   return (
-    <div className="container">
+    <div className="mx-4 flex items-center">
       <div className="bg-transparent">
         {/* NAVBAR LOGIN */}
         <div className="flex items-center pt-6 justify-between">

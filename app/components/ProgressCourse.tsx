@@ -5,45 +5,29 @@ import { GoArrowRight } from "react-icons/go"
 
 const ProgressCourse = () => {
   return (
-    <div className="pb-8">
-      {/* HEADING */}
-      <div className="container font-montserrat flex items-center justify-between mb-8">
+    <div className="w-full flex flex-col items-center pb-8">
+      <div className="container font-montserrat flex items-center justify-between mb-4">
         <h1 className="font-medium text-lg">My Progress</h1>
         <div className="flex items-center text-[#983820] font-semibold text-sm">
           <Link href="">SEE ALL</Link>
           <GoArrowRight />
         </div>
       </div>
-
-      {/* CARD */}
-
-      <div className="w-[95%] h-80 bg-slate-50 rounded-2xl ml-2">
-        <Image
+      {/* <img src="..." className="card-img-top" alt="..."> */}
+      <div className="w-[95%] h-2 bg-slate-50">
+        <img
           src="/hero.jpeg"
           alt=""
-          width={50}
-          height={50}
-          className="rounded-full"
+          className="w-full h-[210px] bg-contain rounded-t-2xl"
         />
-        {/* HEADER CARD */}
-        <div className="container">
-          <div className="font-montserrat px-6 py-6">
-            <p className="font-semibold">Keberagaman Indonesia</p>
-            <p className="mt-2 font-medium">2 of 6 chapters</p>
-          </div>
-        </div>
       </div>
-
-      {/* Icons */}
-      <div className="container">
-        <div className="flex justify-between px-6 py-6">
-          <div>
-            <Link href="">6 tasks</Link>
-          </div>
-
-          <div>
-            <button>Lanjutkan</button>
-          </div>
+      <div className="bg-slate-50 w-[95%] rounded-b-2xl mt-[200px] pb-2 font-montserrat flex flex-col">
+        <div className="font-montserrat px-3 pt-4 text-[#983820]">
+          <p className="font-semibold">Keberagaman Indonesia</p>
+          <p className="pt-4 font-medium pb-2">2 of 6 chapters</p>
+          <button className="font-bold text-lg bg-[#e6ccbe]  text-[#983820] p-2 w-4/12 rounded-2xl mb-2 ml-56">
+            Continue
+          </button>
         </div>
       </div>
     </div>

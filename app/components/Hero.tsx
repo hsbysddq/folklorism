@@ -15,13 +15,11 @@ const Hero = () => {
     <div className="bg-[#FEF7C2]">
       {!user ? <Navbar /> : <Nav />}
 
-      <div className="container pt-6">
+      <div className="mx-2 pt-6">
         {!user ? <Tagline /> : <ProgressPoint />}
-
-        {/* <ProgressPoint /> */}
         <SearchForm />
       </div>
-      {/* <ProgressCourse /> */}
+      <ProgressCourse />
       <Category />
     </div>
   )
