@@ -1,4 +1,4 @@
-import { IoMdColorFilter } from "react-icons/io"
+import { BiFilterAlt } from "react-icons/bi"
 import { BsSearch } from "react-icons/bs"
 
 const SearchForm = () => {
@@ -9,11 +9,11 @@ const SearchForm = () => {
           placeholder="Search Course"
           type="text"
           name="text"
-          className="input py-2 px-2 rounded-xl w-11/12"
+          className="input py-3 px-3 rounded-xl w-11/12 placeholder-[#98382089] font-semibold"
         />
 
-        <div className="flex justify-center items-center w-8 h-8 bg-[#DAB19D] rounded-lg ml-1.5">
-          <IoMdColorFilter className="w-5 h-5 text-[#F3DECC]" />
+        <div className="flex justify-center items-center w-8 h-8 bg-[#DAB19D] rounded-lg ml-3">
+          <BiFilterAlt className="w-5 h-5 text-[#983820]" />
         </div>
       </div>
     </div>
