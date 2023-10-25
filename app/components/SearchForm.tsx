@@ -3,7 +3,7 @@ import { BsSearch } from "react-icons/bs"
 
 const SearchForm = () => {
   return (
-    <div className="pb-7">
+    <div className="pb-6">
       <div className="flex items-center w-full">
         <input
           placeholder="Search Course"
