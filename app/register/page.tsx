@@ -1,7 +1,6 @@
 import React from "react"
-import Navbar from "../components/Navbar/Navbar"
-import Notification from "../components/Navbar/Notification"
 import Link from "next/link"
+import Navbar from "../components/Navbar/Navbar"
 
 const RegisterPage = () => {
   return (
