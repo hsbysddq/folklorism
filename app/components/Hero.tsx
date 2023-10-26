@@ -7,6 +7,7 @@ import Tagline from "./Tagline"
 import Navbar from "./Navbar/Navbar"
 import Nav from "./Nav"
 import ProgressCourse from "./ProgressCourse"
+import Footer from "./Footer"
 
 const Hero = () => {
   const user = true
@@ -21,6 +22,7 @@ const Hero = () => {
       </div>
       <ProgressCourse />
       <Category />
+      <Footer />
     </div>
   )
 }
