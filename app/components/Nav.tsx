@@ -4,10 +4,10 @@ import Menu from "./Navbar/Menu"
 
 const Nav = () => {
   return (
-    <div className="mx-4 flex items-center">
+    <div className="mx-4 md:mx-4 flex items-center">
       <div className="bg-transparent">
         {/* NAVBAR LOGIN */}
-        <div className="flex items-center pt-6 justify-between">
+        <div className="flex items-center pt-4 md:pt-8 justify-between">
           <div className="flex items-center">
             <div className="flex">
               <Image
