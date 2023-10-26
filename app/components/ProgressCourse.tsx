@@ -14,11 +14,11 @@ const ProgressCourse = () => {
         </div>
       </div>
       {/* <img src="..." className="card-img-top" alt="..."> */}
-      <div className="w-[95%] h-2 bg-slate-50">
+      <div className="w-[95%] h-2 bg-transparent">
         <img
           src="/hero.jpeg"
           alt=""
-          className="w-full h-[210px] bg-contain rounded-t-2xl"
+          className="w-full h-[210px] bg-contain rounded-t-3xl"
         />
       </div>
       <div className="bg-slate-50 w-[95%] rounded-b-2xl mt-[200px] pb-2 font-montserrat flex flex-col">
