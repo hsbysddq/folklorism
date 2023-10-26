@@ -1,5 +1,6 @@
 import React from "react"
 import Navbar from "../components/Navbar/Navbar"
+import Link from "next/link"
 
 const LoginPage = () => {
   return (
@@ -28,9 +29,11 @@ const LoginPage = () => {
             </form>
             <div className="pt-4 px-8">
               <p className="pb-8 text-[#983820] font-bold">Forgot Password ?</p>
-              <button className="font-bold text-lg bg-[#983820] text-[#DAB19D] p-4 w-full rounded-2xl mb-8">
-                Login
-              </button>
+              <Link href="/">
+                <button className="font-bold text-lg bg-[#983820] text-[#DAB19D] p-4 w-full rounded-2xl mb-8">
+                  Login
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -61,9 +64,11 @@ const LoginPage = () => {
                 <p className="pb-8 text-[#983820] font-bold">
                   Forgot Password ?
                 </p>
-                <button className="font-bold text-lg bg-[#983820] text-[#DAB19D] p-4 w-full rounded-2xl mb-8">
-                  Login
-                </button>
+                <Link href="/">
+                  <button className="font-bold text-lg bg-[#983820] text-[#DAB19D] p-4 w-full rounded-2xl mb-8">
+                    Login
+                  </button>
+                </Link>
               </div>
             </div>
 
@@ -72,12 +77,13 @@ const LoginPage = () => {
                 Hello, Friend!
               </p>
               <p className="w-10/12 py-2 text-center font-medium font-montserrat text-[#dbac94] mb-2">
-                Register with your personal details to use all of site features
+                Login with your personal details to use all of site features
               </p>
-
-              <button className="font-bold text-lg bg-[#e6ccbe]  text-[#983820] p-4 w-4/12 rounded-2xl mb-8">
-                Register
-              </button>
+              <Link href="/">
+                <button className="font-bold text-lg bg-[#e6ccbe]  text-[#983820] p-4 w-4/12 rounded-2xl mb-8">
+                  Login
+                </button>
+              </Link>
             </div>
           </div>
         </div>
