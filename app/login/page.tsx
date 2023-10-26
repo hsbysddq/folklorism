@@ -5,7 +5,7 @@ const LoginPage = () => {
   return (
     <div className="bg-[#FEF7C2] overflow-hidden">
       <Navbar />
-      <div className="bg-[#FEF7C2] w-screen h-[calc(100vh-3rem)] flex items-center">
+      <div className="bg-[#FEF7C2] w-screen h-[calc(100vh-4rem)] flex items-center">
         <div className="md:hidden w-[350px] bg-[#F4DFBA] rounded-xl m-5">
           <div className="">
             <h1 className="text-center font-extrabold text-3xl text-[#983820] pt-10">
