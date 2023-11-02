@@ -5,7 +5,7 @@ import { GoArrowRight } from "react-icons/go"
 
 const ProgressCourse = () => {
   return (
-    <div className="w-full flex flex-col items-center pb-8">
+    <div className="w-full flex flex-col items-center pb-8 md:hidden">
       <div className="container font-montserrat flex items-center justify-between mb-4">
         <h1 className="font-medium text-lg">My Progress</h1>
         <div className="flex items-center text-[#983820] font-semibold text-sm">
