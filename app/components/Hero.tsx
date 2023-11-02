@@ -8,6 +8,7 @@ import Navbar from "./Navbar/Navbar"
 import Nav from "./Nav"
 import ProgressCourse from "./ProgressCourse"
 import Footer from "./Footer"
+import Event from "./Event/Event"
 
 const Hero = () => {
   const user = true
@@ -22,6 +23,10 @@ const Hero = () => {
       </div>
       <ProgressCourse />
       <Category />
+      <h1 className="text-center font-extrabold text-4xl pt-6 mb-6 text-[#983820]">
+        Event
+      </h1>
+      <Event />
       <Footer />
     </div>
   )
