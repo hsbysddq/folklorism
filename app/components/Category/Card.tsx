@@ -27,19 +27,19 @@ const course = [
   },
 ]
 
-const ProgressCourse = () => {
+const Card = () => {
   return (
-    <div className="w-full flex flex-col items-center pb-2">
+    <div className="flex flex-col md:flex-row xl:flex-row items-center pb-2">
       {course.map((video) => (
-        <div className="w-full ml-9 mb-7">
-          <div className="w-[90%] h-2 bg-transparent">
+        <div className="w-11/12 md:ml-7 xl:ml-10 mb-7">
+          <div className="h-2 bg-transparent">
             <img
               src={video.url}
               alt=""
               className="w-full h-[210px] bg-contain rounded-t-3xl"
             />
           </div>
-          <div className="bg-slate-50 w-[90%] rounded-b-3xl mt-[200px] pb-2 font-montserrat flex flex-col">
+          <div className="bg-slate-50 rounded-b-3xl mt-[200px] pb-2 font-montserrat flex flex-col">
             <div className="font-montserrat px-3 pt-4 text-[#983820] flex flex-col">
               <p className="font-semibold">{video.title}</p>
               <p className="pt-3 font-medium pb-2">{video.chapter}</p>
@@ -55,4 +55,4 @@ const ProgressCourse = () => {
   )
 }
 
-export default ProgressCourse
+export default Card

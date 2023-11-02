@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* LEFT LINK */}
       <div className="hidden md:flex gap-4 flex-1 md:font-semibold md:gap-8 md:my-1">
         <Link href="/">Homepage</Link>
-        <Link href="/menu">Course</Link>
+        <Link href="/">Course</Link>
         <Link href="/">Event</Link>
       </div>
       {/* LOGO */}
