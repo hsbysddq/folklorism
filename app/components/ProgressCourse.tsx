@@ -15,7 +15,7 @@ const ProgressCourse = () => {
       </div>
       {/* <img src="..." className="card-img-top" alt="..."> */}
       <div className="w-full h-2 bg-transparent">
-        <Image
+        <img
           src="/hero.jpeg"
           alt=""
           className="w-full h-[210px] bg-contain rounded-t-3xl"
