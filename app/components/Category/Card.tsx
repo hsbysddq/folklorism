@@ -31,10 +31,9 @@ const Card = () => {
   return (
     <div className="flex flex-col md:flex-row xl:flex-row items-center pb-2">
       {course.map((video) => (
-        <div className="w-11/12 md:ml-7 xl:ml-10 mb-7">
+        <div key={video.id} className="w-11/12 md:ml-7 xl:ml-10 mb-7">
           <div className="h-2 bg-transparent">
             <Image
-              key={video.id}
               src={video.url}
               alt=""
               className="w-full h-[210px] bg-contain rounded-t-3xl"
