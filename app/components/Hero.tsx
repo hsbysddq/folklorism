@@ -17,11 +17,14 @@ const Hero = () => {
     <div className="bg-[#FEF7C2]">
       {!user ? <Navbar /> : <Nav />}
 
-      <div className="mx-2 pt-6">
+      <div className="mx-3 pt-6">
         {!user ? <Tagline /> : <ProgressPoint />}
         <SearchForm />
       </div>
-      <ProgressCourse />
+
+      <div className="mx-4">
+        <ProgressCourse />
+      </div>
       <Category />
       <h1 className="text-center font-extrabold text-4xl pt-6 mb-6 text-[#983820]">
         Event
