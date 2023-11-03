@@ -13,7 +13,7 @@ const links = [
 ]
 const Menu = () => {
   const [open, setOpen] = useState(false)
-  const user = false
+  const user = true
 
   return (
     <div>
@@ -24,7 +24,7 @@ const Menu = () => {
       )}
 
       {open && (
-        <div className="bg-[#F4DFBA] text-[#983820] font-montserrat absolute left-0 top-12 w-full h-[calc(100vh)] flex flex-col gap-8 items-center justify-center text-3xl z-10">
+        <div className="bg-[#F4DFBA] text-[#983820] font-montserrat absolute left-0 top-16 w-full h-[calc(100vh)] flex flex-col gap-8 items-center justify-center text-3xl z-10">
           {links.map((item) => (
             <Link key={item.id} href={item.url} onClick={() => setOpen(false)}>
               {item.title}
