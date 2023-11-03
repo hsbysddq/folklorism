@@ -37,7 +37,7 @@ const ProgressCourse = () => {
         {course.map((video) => (
           <div className="w-11/12 mb-7 md:ml-7 xl:ml-10">
             <div className="h-2 bg-transparent">
-              <img
+              <Image
                 src={video.url}
                 alt=""
                 className="w-full h-[210px] bg-contain rounded-t-3xl"
