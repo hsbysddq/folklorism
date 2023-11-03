@@ -32,12 +32,8 @@ const Card = () => {
     <div className="flex flex-col md:flex-row xl:flex-row items-center pb-2">
       {course.map((video) => (
         <div key={video.id} className="w-11/12 md:ml-7 xl:ml-10 mb-7">
-          <div className="h-2 bg-transparent">
-            <img
-              src={video.url}
-              alt=""
-              className="w-full h-[210px] bg-contain rounded-t-3xl"
-            />
+          <div className="relative h-[210px]">
+            <Image src={video.url} alt="" className="object-contain" />
           </div>
           <div className="bg-slate-50 rounded-b-3xl mt-[200px] pb-2 font-montserrat flex flex-col">
             <div className="font-montserrat px-3 pt-4 text-[#983820] flex flex-col">
