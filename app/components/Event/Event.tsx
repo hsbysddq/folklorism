@@ -38,13 +38,17 @@ const ProgressCourse = () => {
           <div className="w-11/12 mb-7 md:ml-7 xl:ml-10">
             <div className="h-2 bg-transparent">
               <Image
+                key={video.id}
                 src={video.url}
                 alt=""
                 className="w-full h-[210px] bg-contain rounded-t-3xl"
               />
             </div>
             <div className="bg-slate-50 w-full rounded-b-3xl mt-[200px] pb-2 font-montserrat flex flex-col">
-              <div className="font-montserrat px-3 pt-4 text-[#983820] flex flex-col">
+              <div
+                key={video.id}
+                className="font-montserrat px-3 pt-4 text-[#983820] flex flex-col"
+              >
                 <p className="font-semibold text-2xl">{video.title}</p>
                 <div className="flex items-center text-sm font-medium">
                   <MdOutlineDateRange className="w-5 h-5 pl-1 pt-1" />
