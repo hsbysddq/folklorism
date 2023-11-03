@@ -1,11 +1,10 @@
-import Reservation from "@/app/components/Event/Reservation/Reservation"
-import Image from "next/image"
+import DetailEvent from "@/app/components/Event/Reservation/DetailEvent"
 import React from "react"
 
 const ReservationPage = () => {
   return (
     <div className="">
-      <Reservation />
+      <DetailEvent />
     </div>
   )
 }

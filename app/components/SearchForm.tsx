@@ -6,7 +6,7 @@ const SearchForm = () => {
     <div className="pb-6">
       <div className="flex items-center w-full">
         <input
-          placeholder="Search Course"
+          placeholder="Search Course Or Event"
           type="text"
           name="text"
           className="input py-3 px-3 rounded-xl w-11/12 placeholder-[#98382089] font-semibold"
