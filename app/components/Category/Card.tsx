@@ -41,7 +41,7 @@ const Card = () => {
               <p className="pt-3 font-medium pb-2">{video.chapter}</p>
               <p className="font-medium pb-2">{video.duration}</p>
               <button className="font-extrabold text-lg bg-[#e6ccbe]  text-[#983820] p-2 w-4/12 rounded-2xl mb-2 ml-52">
-                Start
+                Starttt
               </button>
             </div>
           </div>
