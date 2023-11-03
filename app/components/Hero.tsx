@@ -9,6 +9,7 @@ import Nav from "./Nav"
 import ProgressCourse from "./ProgressCourse"
 import Footer from "./Footer"
 import Event from "./Event/Event"
+import Link from "next/link"
 
 const Hero = () => {
   const user = true
@@ -26,9 +27,12 @@ const Hero = () => {
         <ProgressCourse />
       </div>
       <Category />
-      <h1 className="text-center font-extrabold text-4xl pt-6 mb-6 text-[#983820]">
-        Event
-      </h1>
+      <Link href="/event">
+        <h1 className="text-center font-extrabold text-4xl pt-6 mb-6 text-[#983820]">
+          Event
+        </h1>
+      </Link>
+
       <Event />
       <Footer />
     </div>
