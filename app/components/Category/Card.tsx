@@ -33,7 +33,7 @@ const Card = () => {
       {course.map((video) => (
         <div key={video.id} className="w-11/12 md:ml-7 xl:ml-10 mb-7">
           <div className="relative h-[210px]">
-            <Image src={video.url} alt="" className="object-contain" />
+            <Image src={video.url} alt="" className="object-contain" fill />
           </div>
           <div className="bg-slate-50 rounded-b-3xl mt-[200px] pb-2 font-montserrat flex flex-col">
             <div className="font-montserrat px-3 pt-4 text-[#983820] flex flex-col">
